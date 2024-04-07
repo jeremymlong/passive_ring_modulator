@@ -1,0 +1,2042 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "a547d506-f592-4028-b10a-fc18a621ca48")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Device:D"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:Transformer_1P_SS"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "T"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Transformer_1P_SS"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Transformer, single primary, split secondary"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "transformer coil magnet"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Transformer_1P_SS_0_1"
+				(arc
+					(start -2.54 -5.0546)
+					(mid -1.6599 -4.6901)
+					(end -1.27 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 -2.5146)
+					(mid -1.6599 -2.1501)
+					(end -1.27 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 0.0254)
+					(mid -1.6599 0.3899)
+					(end -1.27 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 2.5654)
+					(mid -1.6599 2.9299)
+					(end -1.27 3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.27 -3.81)
+					(mid -1.642 -2.912)
+					(end -2.54 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.27 -1.27)
+					(mid -1.642 -0.372)
+					(end -2.54 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.27 1.27)
+					(mid -1.642 2.168)
+					(end -2.54 2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.27 3.81)
+					(mid -1.642 4.708)
+					(end -2.54 5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 5.08) (xy -0.635 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -5.08) (xy 0.635 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.2954 -1.27)
+					(mid 1.6599 -2.1501)
+					(end 2.54 -2.5146)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.2954 1.27)
+					(mid 1.6599 0.3899)
+					(end 2.54 0.0254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.2954 3.81)
+					(mid 1.6599 2.9299)
+					(end 2.54 2.5654)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.3208 -3.81)
+					(mid 1.6853 -4.6901)
+					(end 2.5654 -5.0546)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 0)
+					(mid 1.642 -0.372)
+					(end 1.2954 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 2.54)
+					(mid 1.642 2.168)
+					(end 1.2954 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 5.08)
+					(mid 1.642 4.708)
+					(end 1.2954 3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.5654 -2.54)
+					(mid 1.6674 -2.912)
+					(end 1.3208 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Transformer_1P_SS_1_1"
+				(pin passive line
+					(at -10.16 5.08 0)
+					(length 7.62)
+					(name "AA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -5.08 0)
+					(length 7.62)
+					(name "AB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -5.08 180)
+					(length 7.62)
+					(name "SA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 0 180)
+					(length 7.62)
+					(name "SC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 5.08 180)
+					(length 7.62)
+					(name "SB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "ring_modulator-rescue:AudioJack2_SwitchT-Connector"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Connector_AudioJack2_SwitchT"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Jack*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AudioJack2_SwitchT-Connector_0_1"
+				(rectangle
+					(start -2.54 0)
+					(end -3.81 -2.54)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 -0.254) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0.635 -0.635) (xy 1.27 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 1.778 -2.54) (xy 1.778 -0.254) (xy 1.524 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy -0.635 2.54) (xy -0.635 0) (xy -1.27 -0.635) (xy -1.905 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.54 3.81)
+					(end -2.54 -5.08)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "AudioJack2_SwitchT-Connector_1_1"
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "T"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "TN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "ring_modulator-rescue:GND-power"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "power_GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND-power_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND-power_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 148.59 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4d88f745-b814-4ab1-8d4b-55d94321fa25")
+	)
+	(junction
+		(at 64.77 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ad92720f-e131-4c12-9017-bef0f6ecfe5f")
+	)
+	(junction
+		(at 54.61 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bc84fc07-33a9-4139-a000-b6fc13277b75")
+	)
+	(junction
+		(at 110.49 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ce1257db-80c2-48be-a435-0cbbbb408ee6")
+	)
+	(junction
+		(at 110.49 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d1dbdbfa-1d33-48d4-870a-7c7fc540ac82")
+	)
+	(junction
+		(at 100.33 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e8c9974f-1d2f-4b02-9a62-ae5f9ce1d2de")
+	)
+	(junction
+		(at 100.33 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ff924e6f-b018-40a3-be59-3e8922228ac3")
+	)
+	(no_connect
+		(at 45.72 46.99)
+		(uuid "9510f348-0205-4ef9-b387-e3a89af209ca")
+	)
+	(no_connect
+		(at 152.4 22.86)
+		(uuid "ef739539-7c90-4690-b0e0-468f9ec8ad15")
+	)
+	(no_connect
+		(at 45.72 22.86)
+		(uuid "ff44ccfb-a364-401f-ba85-953b41d689cc")
+	)
+	(wire
+		(pts
+			(xy 88.9 30.48) (xy 82.55 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "169dd460-412e-41a1-a9e1-a3befae96712")
+	)
+	(wire
+		(pts
+			(xy 118.11 43.18) (xy 118.11 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3554af16-05d2-47ae-a0bc-9f4750068ff8")
+	)
+	(wire
+		(pts
+			(xy 110.49 25.4) (xy 124.46 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b8a62a0-a1a4-49c5-8fcc-8779cc460852")
+	)
+	(wire
+		(pts
+			(xy 45.72 27.94) (xy 54.61 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54d713bc-ce10-4f5f-aa73-a5e199fe1bf7")
+	)
+	(wire
+		(pts
+			(xy 109.22 35.56) (xy 110.49 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66948204-9d07-43bf-b21f-d09f7876a640")
+	)
+	(wire
+		(pts
+			(xy 148.59 27.94) (xy 148.59 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "671c5e9d-7f9e-4d23-a1df-99e9541959d7")
+	)
+	(wire
+		(pts
+			(xy 144.78 25.4) (xy 152.4 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79b24b64-837e-4112-afcf-1c8a6655e401")
+	)
+	(wire
+		(pts
+			(xy 54.61 27.94) (xy 54.61 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fafd4a5-2cc9-42dc-808e-0ba18bc7991c")
+	)
+	(wire
+		(pts
+			(xy 45.72 49.53) (xy 88.9 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "848cb236-422f-4cab-92d6-7d94b738287f")
+	)
+	(wire
+		(pts
+			(xy 100.33 26.67) (xy 100.33 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91fb1935-6906-4f40-b82b-e258a2f0ca3e")
+	)
+	(wire
+		(pts
+			(xy 110.49 35.56) (xy 110.49 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a65b561f-e4c2-45a1-b887-bc034e182ca1")
+	)
+	(wire
+		(pts
+			(xy 100.33 35.56) (xy 101.6 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9450e50-fea4-47c0-9f7a-e48d4c15ab09")
+	)
+	(wire
+		(pts
+			(xy 82.55 35.56) (xy 85.09 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b05a3bc5-54cb-4903-9e4c-3ae6ef7a169b")
+	)
+	(wire
+		(pts
+			(xy 109.22 25.4) (xy 110.49 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4818c99-c65e-485b-a592-a3a5e318a8a9")
+	)
+	(wire
+		(pts
+			(xy 110.49 26.67) (xy 110.49 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9077052-034d-44d5-bf02-bc1ce2b9ea89")
+	)
+	(wire
+		(pts
+			(xy 85.09 45.72) (xy 110.49 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdae0b81-d0ea-4b51-8fdd-626f78178c2c")
+	)
+	(wire
+		(pts
+			(xy 100.33 34.29) (xy 100.33 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bef68a2b-4f9e-407e-b2b9-9244171b5e1c")
+	)
+	(wire
+		(pts
+			(xy 45.72 25.4) (xy 62.23 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c29e5e9e-edeb-48ce-b5ac-f18bac936310")
+	)
+	(wire
+		(pts
+			(xy 64.77 52.07) (xy 120.65 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2bc20f0-11c3-4048-abb1-9bd3b18788d8")
+	)
+	(wire
+		(pts
+			(xy 100.33 35.56) (xy 100.33 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c596cc33-44e3-4914-a5d0-29a89b9c7866")
+	)
+	(wire
+		(pts
+			(xy 120.65 52.07) (xy 120.65 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8ad2b35-806e-472c-87c0-f352637c101a")
+	)
+	(wire
+		(pts
+			(xy 82.55 25.4) (xy 100.33 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9d5b782-ccb8-4ec7-bfce-3388129cdb98")
+	)
+	(wire
+		(pts
+			(xy 110.49 45.72) (xy 110.49 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cde517c6-06fb-42f4-a265-2dfe4d9ff1aa")
+	)
+	(wire
+		(pts
+			(xy 148.59 35.56) (xy 144.78 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d94cfa6f-8751-427a-be48-f12c987f9014")
+	)
+	(wire
+		(pts
+			(xy 100.33 43.18) (xy 118.11 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3ea9011-87b7-4af8-b9fe-8b2ae72631ff")
+	)
+	(wire
+		(pts
+			(xy 152.4 27.94) (xy 148.59 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8756863-120b-451c-83f2-2bf26bfc3ea9")
+	)
+	(wire
+		(pts
+			(xy 45.72 52.07) (xy 64.77 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec78caf5-1442-4829-b4ae-faa09fd0945c")
+	)
+	(wire
+		(pts
+			(xy 118.11 35.56) (xy 124.46 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ede561e7-f091-4676-86e3-9164e25d36cc")
+	)
+	(wire
+		(pts
+			(xy 85.09 35.56) (xy 85.09 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1f7f24a-9e05-43e3-afb3-de34d58886b3")
+	)
+	(wire
+		(pts
+			(xy 120.65 30.48) (xy 124.46 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f28f965f-27ef-41c0-9a5a-ff4e6fcd165b")
+	)
+	(wire
+		(pts
+			(xy 88.9 49.53) (xy 88.9 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f553ca7d-9a3d-4cca-af93-22ceb5b75497")
+	)
+	(wire
+		(pts
+			(xy 100.33 25.4) (xy 101.6 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f86849ae-e239-4793-bf19-d99ddad4b195")
+	)
+	(wire
+		(pts
+			(xy 54.61 35.56) (xy 62.23 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "faa02235-6fd7-4d46-b487-10297d8ee5ed")
+	)
+	(symbol
+		(lib_id "ring_modulator-rescue:AudioJack2_SwitchT-Connector")
+		(at 40.64 25.4 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000065dac997")
+		(property "Reference" "J1"
+			(at 36.068 23.6982 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Input"
+			(at 36.068 26.0096 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles"
+			(at 40.64 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40.64 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 40.64 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "T"
+			(uuid "4fa6020c-991a-4dae-a6a1-e1816c489081")
+		)
+		(pin "TN"
+			(uuid "33750b66-e77c-4085-b587-aae00f9066b6")
+		)
+		(pin "S"
+			(uuid "f30a9a51-39ad-4895-8f7b-c3490bc6c3a3")
+		)
+		(instances
+			(project "ring_modulator"
+				(path "/a547d506-f592-4028-b10a-fc18a621ca48"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Transformer_1P_SS")
+		(at 72.39 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000065dadb6c")
+		(property "Reference" "T1"
+			(at 72.39 20.8026 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Transformer_1P_SS"
+			(at 72.39 23.114 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Custom:audio_transformer"
+			(at 72.39 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 72.39 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 72.39 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b11597f1-8074-476f-bb72-e56fdc5b6b8f")
+		)
+		(pin "4"
+			(uuid "f23aa8cf-9827-466a-9517-54920b08ddaa")
+		)
+		(pin "5"
+			(uuid "27d2d1e6-a5c6-4931-9a23-dcef2ec88d42")
+		)
+		(pin "3"
+			(uuid "87852b7b-9075-485e-aaec-9e31d84b84e5")
+		)
+		(pin "2"
+			(uuid "c7853639-81f6-476e-8375-6cb6f9aa636f")
+		)
+		(instances
+			(project "ring_modulator"
+				(path "/a547d506-f592-4028-b10a-fc18a621ca48"
+					(reference "T1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Transformer_1P_SS")
+		(at 134.62 30.48 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000065daeb27")
+		(property "Reference" "T2"
+			(at 134.62 20.8026 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Transformer_1P_SS"
+			(at 134.62 23.114 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Custom:audio_transformer"
+			(at 134.62 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 134.62 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 134.62 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b4eed561-09e7-4f95-8867-6d6ff5f7697a")
+		)
+		(pin "3"
+			(uuid "2e64db6e-2f21-41b9-9242-799ac93967aa")
+		)
+		(pin "4"
+			(uuid "5f621365-5cd4-4465-8543-045c8b7948b0")
+		)
+		(pin "1"
+			(uuid "8b065aae-6b57-401d-a6e6-6e7136fbbc76")
+		)
+		(pin "5"
+			(uuid "ee7c08ce-837e-40a8-b4a2-2523ba84b483")
+		)
+		(instances
+			(project "ring_modulator"
+				(path "/a547d506-f592-4028-b10a-fc18a621ca48"
+					(reference "T2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ring_modulator-rescue:AudioJack2_SwitchT-Connector")
+		(at 40.64 49.53 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000065dafe2d")
+		(property "Reference" "J3"
+			(at 36.0934 47.8282 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Carrier"
+			(at 36.0934 50.1396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles"
+			(at 40.64 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40.64 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 40.64 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S"
+			(uuid "11c7ce27-5166-4f44-9ad8-2dc96e3cb18b")
+		)
+		(pin "TN"
+			(uuid "41205749-0132-4ec1-99b3-8b868d86779a")
+		)
+		(pin "T"
+			(uuid "01c28c34-1c24-4e8a-935e-32e0071709f5")
+		)
+		(instances
+			(project "ring_modulator"
+				(path "/a547d506-f592-4028-b10a-fc18a621ca48"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 105.41 25.4 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000065db1e6f")
+		(property "Reference" "D1"
+			(at 105.41 19.8882 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D"
+			(at 105.41 22.1996 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_A-405_P7.62mm_Horizontal"
+			(at 105.41 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 105.41 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4bcd4e03-c8ad-4a2c-b191-7d180d7a5023")
+		)
+		(pin "2"
+			(uuid "6109a3eb-e7b7-439b-8046-1f7d5580dbae")
+		)
+		(instances
+			(project "ring_modulator"
+				(path "/a547d506-f592-4028-b10a-fc18a621ca48"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 110.49 30.48 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000065db261b")
+		(property "Reference" "D3"
+			(at 112.522 29.3116 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 112.522 31.623 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_A-405_P7.62mm_Horizontal"
+			(at 110.49 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 110.49 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0a41acbb-6647-4d42-aa0b-ae0d75da2d91")
+		)
+		(pin "1"
+			(uuid "6c1f4bf0-4b8c-4528-ac0f-d2a1c4290212")
+		)
+		(instances
+			(project "ring_modulator"
+				(path "/a547d506-f592-4028-b10a-fc18a621ca48"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 105.41 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000065db2e80")
+		(property "Reference" "D4"
+			(at 105.41 41.0718 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D"
+			(at 105.41 38.7604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_A-405_P7.62mm_Horizontal"
+			(at 105.41 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 105.41 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b85dd12c-893d-4fa0-884a-5e0f13e0032d")
+		)
+		(pin "1"
+			(uuid "24a99437-259c-450a-8992-b28fe7a672c5")
+		)
+		(instances
+			(project "ring_modulator"
+				(path "/a547d506-f592-4028-b10a-fc18a621ca48"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 100.33 30.48 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000065db3297")
+		(property "Reference" "D2"
+			(at 102.362 29.3116 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 102.362 31.623 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_A-405_P7.62mm_Horizontal"
+			(at 100.33 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 100.33 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 100.33 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1b042db4-f9d9-43a7-b844-c59987beb168")
+		)
+		(pin "2"
+			(uuid "88f4bfef-bceb-4d1d-8544-bcf80c2ace68")
+		)
+		(instances
+			(project "ring_modulator"
+				(path "/a547d506-f592-4028-b10a-fc18a621ca48"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ring_modulator-rescue:AudioJack2_SwitchT-Connector")
+		(at 157.48 25.4 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000065db651e")
+		(property "Reference" "J2"
+			(at 162.052 23.6982 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Output"
+			(at 162.052 26.0096 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles"
+			(at 157.48 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 157.48 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "T"
+			(uuid "5d15cd46-f2bf-42ad-be63-b5343837eacf")
+		)
+		(pin "TN"
+			(uuid "cb3ed1c8-d78a-4c67-b9d5-66dd8ede81ff")
+		)
+		(pin "S"
+			(uuid "1b1ec2de-527f-4278-9982-9b6568a23f71")
+		)
+		(instances
+			(project "ring_modulator"
+				(path "/a547d506-f592-4028-b10a-fc18a621ca48"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ring_modulator-rescue:GND-power")
+		(at 64.77 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000065dc1d42")
+		(property "Reference" "#PWR?"
+			(at 64.77 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 64.897 56.4642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 64.77 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0b872d3b-ea06-4a85-9535-fe1063629a9f")
+		)
+		(instances
+			(project "ring_modulator"
+				(path "/a547d506-f592-4028-b10a-fc18a621ca48"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ring_modulator-rescue:GND-power")
+		(at 54.61 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000065dc230d")
+		(property "Reference" "#PWR?"
+			(at 54.61 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 54.737 39.9542 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 54.61 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dee38181-757d-4f44-ba26-5e70e3dbf749")
+		)
+		(instances
+			(project "ring_modulator"
+				(path "/a547d506-f592-4028-b10a-fc18a621ca48"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ring_modulator-rescue:GND-power")
+		(at 148.59 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000065dc26bd")
+		(property "Reference" "#PWR?"
+			(at 148.59 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 148.717 39.9542 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 148.59 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c4629ce1-6633-4a0c-ae87-8f23626b0d7e")
+		)
+		(instances
+			(project "ring_modulator"
+				(path "/a547d506-f592-4028-b10a-fc18a621ca48"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

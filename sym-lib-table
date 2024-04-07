@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "ring_modulator-rescue")(type "KiCad")(uri "${KIPRJMOD}/ring_modulator-rescue.kicad_sym")(options "")(descr ""))
+)
